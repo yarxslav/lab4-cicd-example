@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "lab6_instance" {
-  ami           = "ami-007855ac798b5175e"
+  ami           = "ami-03c7d01cf4dedc891"
   instance_type = "t2.micro"
   key_name = "lab4key"
   security_groups = [aws_security_group.Lab6_SG.name]
