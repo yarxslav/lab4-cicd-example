@@ -32,10 +32,10 @@ jobs:
         tags: yarxslav/lab4-cicd-example:latest
 
   terraform:
-   name: 'Terraform'
+   name: Terraform
    runs-on: ubuntu-latest
    steps:
-    - name: Checkout
+    - name: Check out the repo
 	uses: actions/checkout@v3
 
     - name: Setup Terraform
